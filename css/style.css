@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 63.5%;
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.35%;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 85%;
+  }
+}
+
+:root {
+  --color-primary: pink;
+  --color-secondary: white;
+}
+
+body {
+  line-height: 1.6;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: var(--color-primary);
+}
+
+.landingContainer {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingTextBox {
+  text-align: center;
+}
+
+.landingTextBox > h2 {
+  font-family: "Festive", cursive;
+  font-size: 6rem;
+  color: var(--color-secondary);
+}
+
+.landingTextBox > button {
+  margin-top: 20px;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  font-size: 3rem;
+  font-family: 'Akaya Telivigala', cursive;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.landingIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.landingIcon1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.landingIcon2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.landingIcon3{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.landingIcon4{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#firstQuote{
+    height: 100vh;
+    padding: 30px;
+}
+
+.sexyQuotes{
+    margin: 20px 0;
+}
+
+.sexyQuote{
+    padding: 2rem 4rem;
+    border-left: 5px solid var(--color-primary);
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-family: 'Akaya Telivigala', cursive;
+    margin-bottom: 40px;
+}
+
+.loveWording{
+    margin-top: 30px;
+}
+
+.recipientImages{
+    margin: 10px 0;
+}
+
+.firstImage, .secondImage{
+    width: 48%;
+    border: 3px solid var(--color-secondary);
+    height: 100%;
+}
+
+.letters{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.letter{
+    display: inline-block;
+    width: 24%;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid var(--color-primary);
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    font-size: 3rem;
+}
+
+#main-message{
+    height: 100vh;
+    padding: 30px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    position: absolute;
+    top: 0px;
+    padding: 20px 0;
+    width: 100%;
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainMessageImg{
+    width: 30px;
+    height: 30px;
+}
+
+.love-message-textbox{
+    padding: 20px;
+    color: var(--color-secondary);
+    text-align: center;
+}
+
+.love-message-textbox > h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4rem;
+}
+
+.message-body{
+    margin: 30px 0;
+    font-size: 3rem;
+}
+
+
+.salutation{
+    margin-bottom: 20px;
+    display: block;
+    text-align: left;
+}
+
+.salutationImg{
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+}
+
+.paragraph{
+    margin: 10px 0;
+}
+
+.complementary-close{
+    text-align: end;
+    font-size: 2rem
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    padding: 10px 0;
+    font-size: 10px;
+}
